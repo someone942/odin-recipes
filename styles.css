@@ -20,6 +20,11 @@ body {
     margin-top: 0;
     margin-bottom: 10px;
     color: black;
+    text-decoration: underline overline 3px;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 .recipe-index {
