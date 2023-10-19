@@ -1,22 +1,29 @@
-body {
+html {
+    background-color: #fff;
+    min-height: 100vh;
+    box-sizing:  border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     width: 600px;
-    margin: 0 auto;
+    min-height: 100vh;
+    margin: 20px auto 20px auto;
     background-color: #eee;
+    padding: 20px 15px;
 }
 
 .title {
     color: black;
     text-align: center;
     font-size: 60px;
+    margin-top: 0;
     margin-bottom: 10px;
     color: black;
 }
 
 .recipe-index {
     text-align: center;
-    background-color: #eee;
-    height: 400px;
     padding: 10px;
 }
 
@@ -33,7 +40,9 @@ body {
 
 img {
     height: auto;
-    width: 600px;
+    width: 500px;
+    margin: 30px auto;
+    display: block;
 }
 
 a:hover {
